@@ -8,7 +8,7 @@ A recent frontend bootcamp graduate was struggling with deploying their projects
 Keeping in mind that deployment only might not be enough, as databases could be polluted by bad internet actors, I came up with this "groundhog day" idea, which will wipe database to a pre-saved state every hour.
 This way it should be good enough to demo projects' functionality, but also keep them in intended state for future visitors.
 
-## tl;dr way to deploy on [Glitch](glitch.com)
+## tl;dr way to deploy on [Glitch](https://glitch.com)
 
 - open [this Glitch project](https://glitch.com/~json-server-groundhog-day)
 - click "Remix" to have your own copy
