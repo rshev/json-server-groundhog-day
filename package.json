@@ -1,0 +1,19 @@
+{
+  "name": "json-server-groundhog-day",
+  "version": "0.1.0",
+  "description": "json-server with a power to reset its database every hour",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "develop": "json-server --watch db.json --port 3100"
+  },
+  "keywords": [],
+  "author": "Roman Shevtsov",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
