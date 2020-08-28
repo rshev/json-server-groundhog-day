@@ -4,11 +4,13 @@ This is an easily deployable [json-server](https://github.com/typicode/json-serv
 
 ### Why?
 
-A recent frontend bootcamp graduate was struggling with deploying their projects, which were using `json-server`. Keeping in mind that just deployment might not be enough, as databases could be polluted by bad internet actors, I came up with this "groundhog day" idea.
+A recent frontend bootcamp graduate was struggling with deploying their projects, based on `json-server` "backend". 
+Keeping in mind that deployment only might not be enough, as databases could be polluted by bad internet actors, I came up with this "groundhog day" idea, which will wipe database to a pre-saved state every hour.
+This way it should be good enough to demo projects' functionality, but also keep them in intended state for future visitors.
 
 ## tl;dr way to deploy on [Glitch](glitch.com)
 
-- pen [this Glitch project](https://glitch.com/~json-server-groundhog-day)
+- open [this Glitch project](https://glitch.com/~json-server-groundhog-day)
 - click "Remix" to have your own copy
 - edit `db.json` in there and have it instantly deployed! ("show" gives you the address)
 - point your frontend project to that address
