@@ -12,9 +12,11 @@ This way it should be good enough to demo projects' functionality, but also keep
 
 - open [this Glitch project](https://glitch.com/~json-server-groundhog-day)
 - click "Remix" to have your own copy
-- edit `db.json` in there and have it instantly deployed! ("show" gives you the address)
-- point your frontend project to that address
+- edit `db.json` in there - this will be the point `json-server` will reset automatically to
+- grab the deployment address using "show", it should end with `.glitch.me`
+- point your frontend project to use that address as its backend
 - profit, enjoyment, etc :D
+- 💡 tip: the fastest way to deploy your React/static project is [Render](https://render.com/docs/deploy-create-react-app)
 
 ### Other deployment options
 
